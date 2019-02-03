@@ -113,7 +113,7 @@ saveRDS(model_gbm, "./model/model_gbm.rds")
 ```
 
 *RF*
-```{r, cache = TRUE, eval=FALSE}
+```{r, cache = TRUE}
 ## fit the rf model
 model_rf <- train(classe ~ ., data = part_train, method = "rf")
 
